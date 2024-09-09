@@ -1,0 +1,47 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+.skiptranslate {
+  display: none !important;
+}
+
+/* quiz css */
+/* src/GamezopEmbed.css */
+.game-container {
+  width: 100%;
+  /* max-width: 800px; */
+  margin: 0 auto;
+  height: 600px;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  overflow: hidden;
+}
+
+.game-iframe {
+  width: 100%;
+  height: 100%;
+  border: none;
+}
+@keyframes moveLeftRight {
+  0%, 100% {
+    transform: translateX(0);
+  }
+  50% {
+    transform: translateX(20px);
+  }
+}
+
+.icon-animation {
+  display: inline-block;
+  animation: moveLeftRight 2s ease-in-out infinite;
+}

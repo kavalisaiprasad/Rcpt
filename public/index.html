@@ -1,0 +1,141 @@
+  <!DOCTYPE html>
+  <html lang="en"  >
+    <head>
+      <meta charset="utf-8" />
+      <link rel="icon" href="%PUBLIC_URL%/favicon.ico" />
+      <meta name="viewport" content="width=device-width, initial-scale=1" />
+      <meta name="theme-color" content="#000000" />
+      <meta
+        name="description"
+        content="Web site created using create-react-app"
+      />
+      <link rel="icon" type="image/png" sizes="32x32" href="%PUBLIC_URL%/logo/favicon-32x32.png">
+      <link rel="icon" href="%PUBLIC_URL%/favicon.ico" type="image/x-icon">
+      <meta property="og:image" content="%PUBLIC_URL%/favicon.ico" data-react-helmet="true" data-rh="true">
+      <link rel="apple-touch-icon" href="%PUBLIC_URL%/logo192.png" />
+      <link rel="manifest" href="%PUBLIC_URL%/manifest.json" />
+      <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+      <link rel="preconnect" href="https://fonts.googleapis.com">
+      <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+      <link href="https://fonts.googleapis.com/css2?family=PT+Sans+Narrow:wght@400;700&display=swap" rel="stylesheet">
+      <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
+    
+     
+      <!-- <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-4469777092103047" crossorigin="anonymous"></script> -->
+     
+
+      <title>BSNL-Receipt</title>
+      <!-- <script async src="https://securepubads.g.doubleclick.net/tag/js/gpt.js"></script> -->
+      <!-- <meta name="google-adsense-account" content="ca-pub-4469777092103047"> -->
+    </head>
+    <body>
+      <noscript>You need to enable JavaScript to run this app.</noscript>
+      <div id="root"></div>
+
+      <div id="google_translate_element"></div>
+  
+      <script type="text/javascript">
+  
+          let path = window.location.href;
+          var ln =  '/en/';
+          if(path.includes("Receipt")) {
+  
+            if(path.endsWith("H/")) {
+              ln = ln + 'te';
+            }
+          else if(path.endsWith("B/")) {
+              ln = ln + 'hi';
+            }
+            else if(path.endsWith("C/")) {
+              ln = ln + 'bn';
+            }
+            else if(path.endsWith("D/")) {
+              ln = ln + 'as';
+            }
+            else if(path.endsWith("E/")) {
+              ln = ln + 'or';
+              
+            }
+            else if(path.endsWith("F/")) {
+              ln = ln + 'mr';
+            }
+            else if(path.endsWith("I/")) {
+              ln = ln + 'kn';
+            }
+          
+            else if(path.endsWith("J/")) {
+              ln = ln + 'ta';
+              
+            }
+            else if(path.endsWith("K/")) {
+              ln = ln + 'ml';
+              
+            }
+          else if(path.endsWith("L/")) {
+              ln = ln + 'hi';
+              
+            }
+      
+            else {
+              ln = ln + 'en';
+            }
+
+  
+            
+            const script = document.createElement("script");
+  
+            script.src = "https://translate.google.com/translate_a/element.js?cb=googleTranslateElementInit";
+            script.async = true;
+  
+            document.body.appendChild(script);
+          }
+  
+          function googleTranslateElementInit() {
+              setCookie('googtrans', ln , 1);
+              new google.translate.TranslateElement({ pageLanguage: 'ES', layout: google.translate.TranslateElement.InlineLayout.SIMPLE }, 'google_translate_element');
+          }
+
+              function setCookie(key, value, expiry) {
+              var expires = new Date();
+              expires.setTime(expires.getTime() + (expiry * 1  * 20 * 1000));
+              document.cookie = key + '=' + value + ';expires=' + expires.toUTCString();
+          }
+      </script>
+      <script async src="https://www.googletagmanager.com/gtag/js?id=G-1X7R4S2BMM"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'G-1X7R4S2BMM');
+</script>
+    
+<script>
+  
+    window.addEventListener('load', () => {
+      registerSW();
+    });
+ 
+    async function registerSW() {
+      if ('serviceWorker' in navigator) {
+       try {
+         await navigator
+            .serviceWorker
+            .register('serviceWorker.js');
+        } catch (e) {
+         console.log('SW registration failed');
+      }
+     }
+   }
+ 
+
+</script>
+
+<!-- <script
+      async
+      src="https://www.quizzop.com/qz-qc-core.js"
+      onload="qzInitialize()"
+    ></script> -->
+
+    </body>
+  </html>

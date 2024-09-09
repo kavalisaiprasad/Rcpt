@@ -1,0 +1,84 @@
+/* @import url('https://fonts.googleapis.com/css2?family=PT+Sans+Narrow:wght@400;700&display=swap');
+body
+{
+  margin: 0px;
+  font-family: 'PT Sans Narrow', sans-serif !important;
+
+}
+.maincontain
+{
+    
+width: 50%;
+margin: 0 auto;
+}
+.btn
+{
+    background: #F7E109;
+    font-size: 16px;
+    font-weight: 700;
+    border: none;
+    color: #000;
+    margin-bottom: 10px;
+    border-left: 1px solid #ced4da;
+}
+.showbtn
+{
+    padding:5px 10px;
+    width: 90%;
+}
+
+.maintext
+{
+    font-size: 28px;
+    color: rgb(14, 131, 189);
+    vertical-align: inherit;
+    text-align: center !important;
+
+}
+.mobileinput{
+    border: 1px solid #ced4da;
+    color:#495057;
+    width: 90%;
+    padding: 6px;
+    border-radius: 5px;
+}
+.forcenter
+{
+    text-align: center !important;
+}
+.printrep 
+{
+    width: 75%;
+}
+.btnsrow
+{
+    border-bottom: 1px solid #dee2e6!important;
+    margin-bottom: 10px;
+}
+.btnsrow .col-4 
+{
+    border-left: 1px solid #dee2e6;
+
+}
+.btnsrow .col-4:first-child
+{
+    border: none;
+}
+.stv{
+    width: 100%;
+    margin: 0 auto;
+    background:#F7E109;
+    border: none;
+    padding: 6px 12px;
+    font-size: 16px;
+   
+}
+.imagerow  img
+{
+    width: 100%;
+
+}
+.imagerow .col-4
+{
+    border-bottom: 1px solid #dee2e6;
+} */
